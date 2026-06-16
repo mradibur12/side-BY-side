@@ -186,3 +186,7 @@
   }
   .mobileNavItemActive { color: var(--color-sage); }
 }
+@media (max-width: 768px) {
+  .sidebar { display: none !important; }
+  .main { margin-left: 0 !important; }
+}
